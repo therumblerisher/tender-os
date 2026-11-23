@@ -3,7 +3,7 @@
 -- 'simple' FTS configuration tokenizes Bahasa Melayu, English, and 6-digit MOF codes
 -- without English stemmer distortion.
 
-CREATE EXTENSION IF NOT EXISTS vector;
+CREATE EXTENSION IF NOT EXISTS vector SCHEMA public;
 
 CREATE TABLE IF NOT EXISTS tenders (
     id TEXT PRIMARY KEY,
