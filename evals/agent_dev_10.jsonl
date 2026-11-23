@@ -1,0 +1,10 @@
+{"id": "ad01", "question": "Which public tenders require MOF Kod Bidang 210110?", "expected_ids": ["dbkl:2026/A066 (ONLINE)", "dbkl:2026/B212 (ONLINE)", "dbkl:2026/B233 (ONLINE)", "mbjb:MBJB/K/64/2026", "selangor:MBPJ/SH/P/201/2026", "selangor:SH/MPSEPANG/ICT/149/2026", "selangor:T 172/2026"], "expect_abstain": false}
+{"id": "ad02", "question": "What tender did PSUKPP publish under reference PSUKPP/RFP/2/2026?", "expected_ids": ["penang:PSUKPP/RFP/2/2026"], "expect_abstain": false}
+{"id": "ad03", "question": "Are there tenders for halal cooked meal catering for a junior science boarding school (MRSM)?", "expected_ids": ["myprocurement:0057/2026"], "expect_abstain": false}
+{"id": "ad04", "question": "Find any tender for security guard services at Guar Kepah archaeological gallery in Penang.", "expected_ids": ["penang:CMI/SEBUT HARGA/8/2026"], "expect_abstain": false}
+{"id": "ad05", "question": "Which agency invited bids to replace old air conditioning units over ten years old at an EPF office?", "expected_ids": ["myprocurement:DOC5853849506"], "expect_abstain": false}
+{"id": "ad06", "question": "Is there a tender for covered walkway links and pedestrian bridge works by PKNS?", "expected_ids": ["pkns:PKNS / UH / SH / C / 20 / 2026"], "expect_abstain": false}
+{"id": "ad07", "question": "Find tenders for cluster pineapple plantation development in Sarawak.", "expected_ids": ["sarawak:AO11D/2026/ST(21"], "expect_abstain": false}
+{"id": "ad08", "question": "Which ministry issued a public tender for commercial Boeing 787 passenger jetliner leasing?", "expected_ids": [], "expect_abstain": true}
+{"id": "ad09", "question": "Find any tender for lunar rover battery procurement under the NASA Artemis program.", "expected_ids": [], "expect_abstain": true}
+{"id": "ad10", "question": "Are there open Malaysian tenders to build a deep-sea geothermal station in Greenland?", "expected_ids": [], "expect_abstain": true}

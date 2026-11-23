@@ -1,0 +1,322 @@
+{
+  "corpus_size": 1000,
+  "query_count": 45,
+  "best_embedder": "bge-m3_lower",
+  "embedders": {
+    "fts5_baseline": {
+      "scores": {
+        "overall": {
+          "r50": 0.7778,
+          "r20": 0.6889,
+          "r10": 0.6889,
+          "mrr10": 0.5572
+        },
+        "english_cross_lingual": {
+          "r50": 0.6,
+          "r20": 0.44,
+          "r10": 0.44,
+          "mrr10": 0.203
+        },
+        "exact_code_ref": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        },
+        "malay_keyword": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        }
+      }
+    },
+    "minilm_lower": {
+      "dim": 384,
+      "doc_embed_s": 13.63,
+      "query_avg_ms": 1.31,
+      "tokens": 0,
+      "scores": {
+        "overall": {
+          "r50": 0.75,
+          "r20": 0.7056,
+          "r10": 0.65,
+          "mrr10": 0.567
+        },
+        "english_cross_lingual": {
+          "r50": 0.88,
+          "r20": 0.84,
+          "r10": 0.76,
+          "mrr10": 0.6167
+        },
+        "exact_code_ref": {
+          "r50": 0.175,
+          "r20": 0.075,
+          "r10": 0.025,
+          "mrr10": 0.01
+        },
+        "malay_keyword": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        }
+      }
+    },
+    "bge-m3_raw": {
+      "dim": 1024,
+      "doc_embed_s": 5.22,
+      "query_batch_ms": 234.6,
+      "tokens": 104820,
+      "scores": {
+        "overall": {
+          "r50": 0.9537,
+          "r20": 0.8537,
+          "r10": 0.7981,
+          "mrr10": 0.7369
+        },
+        "english_cross_lingual": {
+          "r50": 1.0,
+          "r20": 0.92,
+          "r10": 0.84,
+          "mrr10": 0.723
+        },
+        "exact_code_ref": {
+          "r50": 0.7917,
+          "r20": 0.5417,
+          "r10": 0.4917,
+          "mrr10": 0.5083
+        },
+        "malay_keyword": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        }
+      },
+      "single_query_p50_ms": 118.0
+    },
+    "bge-m3_lower": {
+      "dim": 1024,
+      "doc_embed_s": 4.95,
+      "query_batch_ms": 268.8,
+      "tokens": 83361,
+      "scores": {
+        "overall": {
+          "r50": 0.9833,
+          "r20": 0.9185,
+          "r10": 0.8407,
+          "mrr10": 0.7821
+        },
+        "english_cross_lingual": {
+          "r50": 1.0,
+          "r20": 0.96,
+          "r10": 0.88,
+          "mrr10": 0.824
+        },
+        "exact_code_ref": {
+          "r50": 0.925,
+          "r20": 0.7333,
+          "r10": 0.5833,
+          "mrr10": 0.4593
+        },
+        "malay_keyword": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        }
+      },
+      "single_query_p50_ms": 87.4
+    },
+    "ilmu-embedding-v1_raw": {
+      "dim": 4096,
+      "doc_embed_s": 22.68,
+      "query_batch_ms": 671.0,
+      "tokens": 130263,
+      "scores": {
+        "overall": {
+          "r50": 0.8685,
+          "r20": 0.85,
+          "r10": 0.8222,
+          "mrr10": 0.665
+        },
+        "english_cross_lingual": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 0.7937
+        },
+        "exact_code_ref": {
+          "r50": 0.4083,
+          "r20": 0.325,
+          "r10": 0.2,
+          "mrr10": 0.1417
+        },
+        "malay_keyword": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 0.8667
+        }
+      },
+      "single_query_p50_ms": 128.1
+    },
+    "ilmu-embedding-v1_lower": {
+      "dim": 4096,
+      "doc_embed_s": 21.93,
+      "query_batch_ms": 757.6,
+      "tokens": 108672,
+      "scores": {
+        "overall": {
+          "r50": 0.863,
+          "r20": 0.8222,
+          "r10": 0.7778,
+          "mrr10": 0.6208
+        },
+        "english_cross_lingual": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 0.92,
+          "mrr10": 0.7074
+        },
+        "exact_code_ref": {
+          "r50": 0.3833,
+          "r20": 0.2,
+          "r10": 0.2,
+          "mrr10": 0.1583
+        },
+        "malay_keyword": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 0.8667
+        }
+      },
+      "single_query_p50_ms": 188.6
+    }
+  },
+  "rerankers": {
+    "hybrid_rrf_no_rerank": {
+      "scores": {
+        "overall": {
+          "r50": 0.9778,
+          "r20": 0.9556,
+          "r10": 0.9111,
+          "mrr10": 0.7052
+        },
+        "english_cross_lingual": {
+          "r50": 0.96,
+          "r20": 0.92,
+          "r10": 0.84,
+          "mrr10": 0.4693
+        },
+        "exact_code_ref": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        },
+        "malay_keyword": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        }
+      }
+    },
+    "ilmu_bge_reranker_raw": {
+      "tokens": 109884,
+      "p50_ms": 114.7,
+      "p95_ms": 175.8,
+      "scores": {
+        "overall": {
+          "r50": 0.9556,
+          "r20": 0.9556,
+          "r10": 0.9556,
+          "mrr10": 0.9183
+        },
+        "english_cross_lingual": {
+          "r50": 0.92,
+          "r20": 0.92,
+          "r10": 0.92,
+          "mrr10": 0.853
+        },
+        "exact_code_ref": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        },
+        "malay_keyword": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        }
+      }
+    },
+    "ilmu_bge_reranker_lower": {
+      "tokens": 91487,
+      "p50_ms": 108.9,
+      "p95_ms": 213.8,
+      "scores": {
+        "overall": {
+          "r50": 0.9556,
+          "r20": 0.9556,
+          "r10": 0.9556,
+          "mrr10": 0.9222
+        },
+        "english_cross_lingual": {
+          "r50": 0.92,
+          "r20": 0.92,
+          "r10": 0.92,
+          "mrr10": 0.86
+        },
+        "exact_code_ref": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        },
+        "malay_keyword": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        }
+      }
+    },
+    "local_bge_reranker_int8_lower": {
+      "tokens": 0,
+      "p50_ms": 1621.7,
+      "p95_ms": 3274.8,
+      "scores": {
+        "overall": {
+          "r50": 0.9556,
+          "r20": 0.9556,
+          "r10": 0.9556,
+          "mrr10": 0.9278
+        },
+        "english_cross_lingual": {
+          "r50": 0.92,
+          "r20": 0.92,
+          "r10": 0.92,
+          "mrr10": 0.87
+        },
+        "exact_code_ref": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        },
+        "malay_keyword": {
+          "r50": 1.0,
+          "r20": 1.0,
+          "r10": 1.0,
+          "mrr10": 1.0
+        }
+      }
+    }
+  }
+}

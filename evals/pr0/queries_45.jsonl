@@ -1,0 +1,45 @@
+{"id": "p01", "bucket": "exact_code_ref", "query": "210110", "relevant_ids": ["dbkl:2026/A066 (ONLINE)", "dbkl:2026/B212 (ONLINE)", "dbkl:2026/B233 (ONLINE)", "mbjb:MBJB/K/64/2026"]}
+{"id": "p02", "bucket": "exact_code_ref", "query": "220901", "relevant_ids": ["dbkl:2026/B210 (ONLINE)", "mbip:MBIP/T/75/2026", "mbjb:MBJB/K/66/2026", "mbjb:MBJB/K/67/2026"]}
+{"id": "p03", "bucket": "exact_code_ref", "query": "220801", "relevant_ids": ["penang:CMI/SEBUT HARGA/8/2026", "penang:JHEAIPP/E-P/P/PENT/SBH/12/2026", "penang:PPN.PP.35(N)/2026"]}
+{"id": "p04", "bucket": "exact_code_ref", "query": "330102", "relevant_ids": ["dbkl:2026/G015 (C&S)", "myprocurement:JBA/PP-T/03/2026", "myprocurement:JKR/IP/CJ/T/2026/36"]}
+{"id": "p05", "bucket": "exact_code_ref", "query": "221006", "relevant_ids": ["penang:T0326001", "penang:T0326003"]}
+{"id": "p06", "bucket": "exact_code_ref", "query": "221307", "relevant_ids": ["mbjb:MBJB/SH/114/2026", "mbjb:MBJB/SH/55/2026 (Sebutharga Semula)"]}
+{"id": "p07", "bucket": "exact_code_ref", "query": "220301", "relevant_ids": ["myprocurement:DOC5927660907", "penang:PSUKPP/34/2026"]}
+{"id": "p08", "bucket": "exact_code_ref", "query": "210105", "relevant_ids": ["mbjb:MBJB/K/42/2026 (tender semula)", "penang:MBPP.S.NO.235/2026(B)", "penang:PSUKPP/36/2026", "penang:PSUKPP/RFP/2/2026"]}
+{"id": "p09", "bucket": "exact_code_ref", "query": "340104", "relevant_ids": ["dbkl:2026/G016"]}
+{"id": "p10", "bucket": "exact_code_ref", "query": "340201", "relevant_ids": ["mbjb:MBJB/p/3/2026"]}
+{"id": "p11", "bucket": "malay_keyword", "query": "pembekalan makanan bermasak halal mrsm", "relevant_ids": ["myprocurement:0057/2026"]}
+{"id": "p12", "bucket": "malay_keyword", "query": "penggantian alat hawa dingin pejabat kwsp", "relevant_ids": ["myprocurement:DOC5853849506"]}
+{"id": "p13", "bucket": "malay_keyword", "query": "kawalan keselamatan galeri arkeologi guar kepah", "relevant_ids": ["penang:CMI/SEBUT HARGA/8/2026"]}
+{"id": "p14", "bucket": "malay_keyword", "query": "penyelenggaraan kebersihan pencucian masjid barat daya", "relevant_ids": ["penang:JHEAIPP/E-P/P/PENT/SBH/11/2026"]}
+{"id": "p15", "bucket": "malay_keyword", "query": "laluan pejalan kaki berbumbung putrajaya", "relevant_ids": ["ppj:PPj/JB/SH(S)/0019/2026"]}
+{"id": "p16", "bucket": "malay_keyword", "query": "bumbung tambahan terminal putrajaya sentral", "relevant_ids": ["ppj:PPj/JB/SH(S)/0026/2026"]}
+{"id": "p17", "bucket": "malay_keyword", "query": "penggantian kabel elektrik lampu jalan putrajaya", "relevant_ids": ["ppj:PPj/JB/SH(S)/0027/2026"]}
+{"id": "p18", "bucket": "malay_keyword", "query": "tanam baru berkelompok tanaman nanas sarawak", "relevant_ids": ["sarawak:AO11D/2026/ST(21"]}
+{"id": "p19", "bucket": "malay_keyword", "query": "ubahsuai menaiktaraf perpustakaan sultan ismail johor bahru", "relevant_ids": ["mbjb:MBJB/K/49/2026 (TENDER SEMULA)"]}
+{"id": "p20", "bucket": "malay_keyword", "query": "penyelenggaraan jambatan bebo interchange putrajaya", "relevant_ids": ["ppj:PPj/JB/SH(S)/0025/2026"]}
+{"id": "p21", "bucket": "english_cross_lingual", "query": "halal cooked meal catering service for junior science boarding school", "relevant_ids": ["myprocurement:0057/2026"]}
+{"id": "p22", "bucket": "english_cross_lingual", "query": "replace old air conditioning units over ten years old at EPF office", "relevant_ids": ["myprocurement:DOC5853849506"]}
+{"id": "p23", "bucket": "english_cross_lingual", "query": "electrical wiring works at prayer hall student hostel and administration block", "relevant_ids": ["myprocurement:086/2026/0053"]}
+{"id": "p24", "bucket": "english_cross_lingual", "query": "security guard services at Guar Kepah archaeological gallery", "relevant_ids": ["penang:CMI/SEBUT HARGA/8/2026"]}
+{"id": "p25", "bucket": "english_cross_lingual", "query": "car park leasing and management contract in Penang", "relevant_ids": ["penang:CMI/SEBUT HARGA/9/2026"]}
+{"id": "p26", "bucket": "english_cross_lingual", "query": "mosque cleaning and janitorial maintenance services", "relevant_ids": ["penang:JHEAIPP/E-P/P/PENT/SBH/11/2026"]}
+{"id": "p27", "bucket": "english_cross_lingual", "query": "grass cutting and lawn mowing at government staff quarters", "relevant_ids": ["penang:JKRDTL/SH/N/B/JB/2027/1"]}
+{"id": "p28", "bucket": "english_cross_lingual", "query": "covered walkway link from pedestrian overhead bridge PKNS", "relevant_ids": ["pkns:PKNS / UH / SH / C / 20 / 2026"]}
+{"id": "p29", "bucket": "english_cross_lingual", "query": "fitness gymnasium operator appointment at state development headquarters", "relevant_ids": ["pkns:PKNS/BPS/GIM/JLD.2"]}
+{"id": "p30", "bucket": "english_cross_lingual", "query": "design and install outdoor advertising signboards along walkway", "relevant_ids": ["pkns:PKNS/PPS/400-4 (9)"]}
+{"id": "p31", "bucket": "english_cross_lingual", "query": "monument foundation and structural construction at national heroes square", "relevant_ids": ["ppj:PPj/JB/SH(S)/0014/2026"]}
+{"id": "p32", "bucket": "english_cross_lingual", "query": "additional roof construction at central transit terminal", "relevant_ids": ["ppj:PPj/JB/SH(S)/0026/2026"]}
+{"id": "p33", "bucket": "english_cross_lingual", "query": "faulty street lighting power cable replacement", "relevant_ids": ["ppj:PPj/JB/SH(S)/0027/2026"]}
+{"id": "p34", "bucket": "english_cross_lingual", "query": "cluster pineapple plantation land development in Sarawak", "relevant_ids": ["sarawak:AO11D/2026/ST(21"]}
+{"id": "p35", "bucket": "english_cross_lingual", "query": "supply agricultural fertilizer inputs to Betong division", "relevant_ids": ["sarawak:AO11D/2026/ST(22"]}
+{"id": "p36", "bucket": "english_cross_lingual", "query": "public library renovation and upgrading works Johor Bahru", "relevant_ids": ["mbjb:MBJB/K/49/2026 (TENDER SEMULA)"]}
+{"id": "p37", "bucket": "english_cross_lingual", "query": "demolish and rebuild food court stalls Taman Puteri Wangsa", "relevant_ids": ["mbjb:MBJB/K/50/2026 (TENDER SEMULA)"]}
+{"id": "p38", "bucket": "english_cross_lingual", "query": "smart flood early warning sensor system installation", "relevant_ids": ["mbjb:MBJB/K/42/2026 (tender semula)"]}
+{"id": "p39", "bucket": "english_cross_lingual", "query": "stray dog capture and animal control services", "relevant_ids": ["mbip:MBIP/S/01/2027"]}
+{"id": "p40", "bucket": "english_cross_lingual", "query": "insurance and takaful broker panel appointment city hall", "relevant_ids": ["dbkl:2026/A065 (ONLINE)"]}
+{"id": "p41", "bucket": "english_cross_lingual", "query": "media recording and audio video production equipment purchase", "relevant_ids": ["dbkl:2026/B215 (ONLINE)"]}
+{"id": "p42", "bucket": "english_cross_lingual", "query": "supply anti typhoid vaccine doses municipal health", "relevant_ids": ["mbjb:MBJB/SH/127/2026"]}
+{"id": "p43", "bucket": "english_cross_lingual", "query": "electric scooter rental service Penang city council", "relevant_ids": ["penang:MBPP.S.NO.243/2026(P)"]}
+{"id": "p44", "bucket": "english_cross_lingual", "query": "universal design master plan consultancy study Kuala Lumpur", "relevant_ids": ["dbkl:2026/G016"]}
+{"id": "p45", "bucket": "english_cross_lingual", "query": "traffic impact and road transport consultancy study Johor Bahru", "relevant_ids": ["mbjb:MBJB/p/3/2026"]}

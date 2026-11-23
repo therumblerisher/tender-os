@@ -36,10 +36,13 @@ jobs:
         run: uv sync --frozen
 
       - name: Lint with ruff
-        run: uv run ruff check src tests scripts
+        run: uv run ruff check src tests scripts evals
 
       - name: Typecheck with mypy
         run: uv run mypy src
+
+      - name: Verify README numbers match evals/report.json
+        run: uv run python scripts/check_readme_numbers.py
 
       - name: Apply Postgres schema migration
         env:
