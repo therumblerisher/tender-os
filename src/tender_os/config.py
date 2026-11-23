@@ -23,6 +23,8 @@ class Settings(BaseSettings):
     database_url: str = "postgresql://tenderos:tenderos@127.0.0.1:5439/tenderos"
     db_pool_min_size: int = Field(default=1, ge=1, le=50)
     db_pool_max_size: int = Field(default=10, ge=1, le=100)
+    snapshot_path: str = "data/tenders_public.jsonl"
+    embeddings_path: str = "data/embeddings.f32"
 
     ilmu_api_key: str | None = Field(default=None, validation_alias="ILMU_API_KEY")
     ilmu_base_url: str = "https://api.ilmu.ai/v1"
@@ -34,7 +36,9 @@ class Settings(BaseSettings):
     ilmu_timeout_seconds: float = Field(default=15.0, gt=0.5, le=60.0)
     ilmu_rerank_timeout_seconds: float = Field(default=5.0, gt=0.5, le=30.0)
 
+    rerank_floor: float = Field(default=0.04, ge=0.0, le=1.0)
     daily_cap_myr: float = Field(default=5.0, ge=0.0)
+    rate_limit_rpm: int = Field(default=60, ge=1, le=10000)
     rrf_k: int = Field(default=60, ge=1)
     candidate_pool_size: int = Field(default=50, ge=5, le=200)
     rerank_pool_size: int = Field(default=20, ge=1, le=50)

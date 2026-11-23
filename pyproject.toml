@@ -16,6 +16,9 @@ dependencies = [
     "numpy>=2.1.0",
 ]
 
+[project.scripts]
+tender-os = "tender_os.cli:main"
+
 [dependency-groups]
 dev = [
     "pytest>=8.3.0",

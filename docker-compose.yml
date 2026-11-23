@@ -1,0 +1,56 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-tenderos}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-tenderos}
+      POSTGRES_DB: ${POSTGRES_DB:-tenderos}
+    ports:
+      - "127.0.0.1:${TENDER_OS_PG_PORT:-5439}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -h 127.0.0.1 -U ${POSTGRES_USER:-tenderos} -d ${POSTGRES_DB:-tenderos}",
+        ]
+      interval: 5s
+      timeout: 3s
+      retries: 15
+
+  api:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      ILMU_API_KEY: ${ILMU_API_KEY:-}
+      TENDER_OS_DATABASE_URL: postgresql://${POSTGRES_USER:-tenderos}:${POSTGRES_PASSWORD:-tenderos}@postgres:5432/${POSTGRES_DB:-tenderos}
+      TENDER_OS_SNAPSHOT_PATH: /app/data/tenders_public.jsonl
+      TENDER_OS_EMBEDDINGS_PATH: /app/data/embeddings.f32
+      TENDER_OS_RERANK_FLOOR: ${TENDER_OS_RERANK_FLOOR:-0.04}
+      TENDER_OS_DAILY_CAP_MYR: ${TENDER_OS_DAILY_CAP_MYR:-5.00}
+      TENDER_OS_RATE_LIMIT_RPM: ${TENDER_OS_RATE_LIMIT_RPM:-60}
+    ports:
+      - "${TENDER_OS_API_PORT:-8000}:8000"
+    volumes:
+      - ./data:/app/data:ro
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2)",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:
