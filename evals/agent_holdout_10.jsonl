@@ -1,0 +1,10 @@
+{"id": "ah01", "question": "Which public tenders require MOF Kod Bidang 330103 for electrical or M&E consultancy?", "expected_ids": ["dbkl:2026/G015 (M&E)", "jkr:JKR(PP)/IP/CKE/11/2026(P)", "jkr:JKR(PP)/IP/CKE/9/2026 (P)", "myprocurement:JKR(PP)/IP/CKE/ 9/2026 (P)"], "expect_abstain": false}
+{"id": "ah02", "question": "Are there tenders to rebuild the Banting fire and rescue station in Selangor?", "expected_ids": ["jkr:JKR/SEL/(P)/016(T)/2026", "myprocurement:JKR/SEL/(P)/016(T)/2026"], "expect_abstain": false}
+{"id": "ah03", "question": "Find any tender for hybrid solar system maintenance in Sabah.", "expected_ids": ["jkr:JKR/CKE/FM1SBH/2026", "jkr:JKR/CKE/FM2SBH/2026", "jkr:JKR/CKE/FM3SBH/2026", "myprocurement:JKR/CKE/FM1SBH/2026"], "expect_abstain": false}
+{"id": "ah04", "question": "Is there a tender for blind spot detection systems on Prasarana buses?", "expected_ids": ["prasarana:PRASARANA/GPD/BS(E)/142/251/2026"], "expect_abstain": false}
+{"id": "ah05", "question": "Which agency published a study on raw water supply sources in Penang?", "expected_ids": ["myprocurement:JBA/PP-T/02/2026"], "expect_abstain": false}
+{"id": "ah06", "question": "Find any tender for hospital data center InRow cooling repair in Ipoh, Perak.", "expected_ids": ["eperolehan:4839c522ea8e9f60", "eperolehan:d0e7c8b02eedd720"], "expect_abstain": false}
+{"id": "ah07", "question": "What road resurfacing tender did Cyberview publish in Cyberjaya?", "expected_ids": ["cyberview:caadea41a123dd0a"], "expect_abstain": false}
+{"id": "ah08", "question": "Which Malaysian ministry issued a tender for nuclear-powered submarine reactor cores?", "expected_ids": [], "expect_abstain": true}
+{"id": "ah09", "question": "Find the SpaceX Falcon 9 orbital launch procurement issued by Perlis State Government.", "expected_ids": [], "expect_abstain": true}
+{"id": "ah10", "question": "Are there open tenders to charter an icebreaker vessel for an Antarctica research mission?", "expected_ids": [], "expect_abstain": true}

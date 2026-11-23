@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  lint-typecheck-test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: tenderos
+          POSTGRES_PASSWORD: tenderos
+          POSTGRES_DB: tenderos
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Lint with ruff
+        run: uv run ruff check src tests scripts
+
+      - name: Typecheck with mypy
+        run: uv run mypy src
+
+      - name: Apply Postgres schema migration
+        env:
+          TENDER_OS_DATABASE_URL: postgresql://tenderos:tenderos@127.0.0.1:5432/tenderos
+        run: |
+          uv run python -c "import os, pathlib, psycopg; conn = psycopg.connect(os.environ['TENDER_OS_DATABASE_URL'], autocommit=True); conn.execute(pathlib.Path('migrations/001_init.sql').read_text()); conn.close()"
+
+      - name: Run unit, structural guard, property, and Postgres pgvector tests
+        env:
+          TENDER_OS_DATABASE_URL: postgresql://tenderos:tenderos@127.0.0.1:5432/tenderos
+        run: uv run pytest -v
